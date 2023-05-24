@@ -9,7 +9,7 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  final GlobalKey<FormState> formKey = GlobalKey<FormState>();
+  final GlobalKey<FormState> formKey = GlobalKey<FormState>(); 
   final TextEditingController player1Controller = TextEditingController();
   final TextEditingController player2Controller = TextEditingController();
   @override
